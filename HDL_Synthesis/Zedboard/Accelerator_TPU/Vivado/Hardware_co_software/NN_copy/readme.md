@@ -1,6 +1,3 @@
-Here is a complete, professional `README.md` for your GitHub repository. It includes project context, the results of both tests, and embedded Mermaid.js charts (which GitHub automatically renders into graphs) to visualize your predictions and performance.
-
-You can copy and paste this directly into your repository.
 
 ---
 
