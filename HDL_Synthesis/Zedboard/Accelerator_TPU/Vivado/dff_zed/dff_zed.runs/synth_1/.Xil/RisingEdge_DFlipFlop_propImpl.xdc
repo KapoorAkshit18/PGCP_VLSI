@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.srcs/constrs_1/new/pins.xdc rfile:../../../dff_zed.srcs/constrs_1/new/pins.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y9 [get_ports clk]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M15 [get_ports D]
+set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T22 [get_ports Q]

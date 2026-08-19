@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Aug  4 21:11:25 2026
+# Process ID: 4600
+# Current directory: C:/projects/neural_network/neural_network.runs/impl_1
+# Command line: vivado.exe -log axis_nn.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source axis_nn.tcl -notrace
+# Log file: C:/projects/neural_network/neural_network.runs/impl_1/axis_nn.vdi
+# Journal file: C:/projects/neural_network/neural_network.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source axis_nn.tcl -notrace

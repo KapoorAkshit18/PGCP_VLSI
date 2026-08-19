@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.srcs/sim_1/imports/reg/register_tb.v,1785074220,verilog,,,,tb_DFF,,,,,,,,
+C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.srcs/sources_1/imports/reg/register.v,1785074145,verilog,,C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.srcs/sim_1/imports/reg/register_tb.v,,RisingEdge_DFlipFlop,,,,,,,,

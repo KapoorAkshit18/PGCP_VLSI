@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.sim/sim_1/synth/func/xsim/register_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.srcs/sim_1/imports/reg/register_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_tb

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"nn_tb_func_impl.v" \
+"../../../../../neural_network.srcs/sources_1/imports/module/nn.v" \
+"../../../../../neural_network.srcs/sources_1/imports/module/pe.v" \
+"../../../../../neural_network.srcs/sources_1/imports/module/register.v" \
+"../../../../../neural_network.srcs/sources_1/imports/module/sigmoid.v" \
+"../../../../../neural_network.srcs/sources_1/imports/module/systolic.v" \
+"../../../../../neural_network.srcs/sim_1/imports/testbench/nn_tb.v" \
+
+# Do not sort compile order
+nosort

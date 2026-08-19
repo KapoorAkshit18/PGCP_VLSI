@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../neural_network.srcs/sources_1/imports/module/nn.v" \
+"../../../../neural_network.srcs/sources_1/imports/module/pe.v" \
+"../../../../neural_network.srcs/sources_1/imports/module/register.v" \
+"../../../../neural_network.srcs/sources_1/imports/module/sigmoid.v" \
+"../../../../neural_network.srcs/sources_1/imports/module/systolic.v" \
+"../../../../neural_network.srcs/sim_1/imports/testbench/nn_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

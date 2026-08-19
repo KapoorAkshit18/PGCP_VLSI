@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/module/axis_nn.v" \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/module/nn.v" \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/module/pe.v" \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/module/register.v" \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/module/sigmoid.v" \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/module/systolic.v" \
+"../../../../../../../../../Downloads/fpga101/fpga101/part_8/testbench/axis_nn_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Time=0 d=0 q=x dut.d=0 dut.q=x
+Time=0 d=0 q=0 dut.d=0 dut.q=0
+5000 : posedge clk, rst_n=0 en=1 clr=0 d=0 q=0
+15000 : posedge clk, rst_n=1 en=1 clr=0 d=0 q=0
+Time=20000 d=8 q=0 dut.d=8 dut.q=0
+25000 : posedge clk, rst_n=1 en=1 clr=0 d=8 q=0
+Time=30000 d=f q=0 dut.d=f dut.q=0
+35000 : posedge clk, rst_n=1 en=1 clr=0 d=f q=0
+$finish called at time : 45 ns : File "C:/Users/akshi/Downloads/nn_system_architecture/simulations_rema_modules/dff_zed/dff_zed.srcs/sim_1/imports/reg/register_tb.v" Line 59
