@@ -1,6 +1,6 @@
 
 ---
-
+# Sourced from Udemy FPGA101 course by Erwin Ouyang
 # Zynq FPGA Neural Network Accelerator via AXI DMA
 
 This repository contains bare-metal C code for evaluating a hardware-accelerated Artificial Neural Network (ANN) running on a Xilinx Zynq FPGA. The project compares the performance and accuracy of a custom hardware IP (designed via Vivado HLS) against a purely software-based implementation running on the processing system (ARM Cortex-A9 / MicroBlaze).
