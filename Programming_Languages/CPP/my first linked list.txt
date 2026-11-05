@@ -1,0 +1,27 @@
+struct node {                        //  --    box is node 
+							// | |
+	int data;
+	struct node *link; 
+  
+};
+
+struct node *root;   // 
+
+// ptr = 1000;
+ // *ptr = a;   // reference vs dereference
+
+root = struct node* malloc(sizeof(struct node)); // points and create mem for first node
+
+// linked list methods 
+// append
+
+struct node {
+	int data;
+	struct node* link;
+
+};
+
+struct node * root = NULL; 
+
+
+

@@ -1,0 +1,81 @@
+lets learn apb protocol fundamentals:
+
+
+signals: 
+pclk
+penable
+psel
+pready
+pwdata
+pready
+pwrite
+prdata
+pstrb 
+pprot
+
+
+1. Is PSLVERR meaningful when PREADY = 0? When is it sampled?
+
+Ans. No, it is not meaning-full as is is only in the last access cycle, where pready, psel and penable is 1.
+
+
+2. If PREADY remains LOW for five cycles, which signals must remain stable?
+
+Ans. HW
+
+
+3. If PREADY = 0 during ACCESS, is the transfer complete or still in progress?
+
+4. Can PREADY be HIGH during SETUP? Does it have any effect?
+
+5. When exactly is an APB transfer considered complete?
+
+6. If PSLVERR = 1 while PREADY = 0, should the requester treat it as an error?
+
+7. Can PSLVERR be HIGH during a successful transfer?
+
+8. Are PWDATA and PSTRB meaningful during a read transfer?
+
+9. Is PRDATA meaningful during a write transfer?
+
+10. If a slave detects an error midway through a transfer, when should it assert PSLVERR?
+
+11. What happens if the slave never asserts PREADY?
+
+12. Can PREADY change from HIGH to LOW during ACCESS? What would it indicate?
+
+13. Can PADDR, PWRITE or PWDATA change while PREADY = 0?
+
+14. Why does APB use separate SETUP and ACCESS phases?
+
+15. Why must PENABLE remain HIGH during wait states?
+
+16. Can PSEL become LOW while PENABLE is HIGH during an active transfer?
+
+17. What happens if PSEL remains HIGH but PENABLE stays LOW for several cycles?
+
+18. Can a new transfer begin while the previous transfer is still in ACCESS?
+
+19. If PREADY is already HIGH before ACCESS, how many ACCESS cycles are required?
+
+20. What happens to PENABLE after a transfer completes with PSLVERR = 1?
+
+21. If PREADY = 0 for two ACCESS cycles and then PREADY = 1, PSLVERR = 1, how many ACCESS and total APB cycles were required?
+
+22. If PREADY = 1 and PSLVERR = 1 in the first ACCESS cycle, is another cycle required to report the error?
+
+23. If an invalid address is detected immediately, can the slave assert PREADY = 1 and PSLVERR = 1 in the first ACCESS cycle?
+
+24. If a slave needs three cycles to detect an invalid address, how should PREADY and PSLVERR behave?
+
+25. If a slave cannot return the requested read data, how should PRDATA, PREADY and PSLVERR behave?
+
+26. Can a slave use PREADY = 0 to indicate an error?
+
+27. How do the signals distinguish “not ready yet” from “transfer error”?
+
+28. Does PSLVERR = 1 mean the APB transfer was not completed?
+
+29. If PREADY = 1 and PSLVERR = 0, can the requester consider the transfer successful?
+
+30. When a read ends with PSLVERR = 1, should the returned PRDATA be considered valid?
